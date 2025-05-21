@@ -1,0 +1,10 @@
+messages:
+  - role: system
+    content: >
+      Respond formatted in JSON in the form {
+      songs:[{title:string,artist:string}]}
+  - role: user
+    content: |
+      Suggest 10 songs for feeling likea 1980s karate 
+      maaster
+model: openai/gpt-4o
